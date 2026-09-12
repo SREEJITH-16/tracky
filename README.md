@@ -1,73 +1,316 @@
-# Welcome to your Lovable project
+# 💰 TRACKY
 
-## Project info
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,50:FFA500,100:FF8C00&height=200&section=header&text=TRACKY&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+</p>
 
-**URL**: https://lovable.dev/projects/2a0c8923-0306-4262-87ed-4f0443235bfa
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&color=F5B400&center=true&vCenter=true&width=700&lines=Track+Your+Expenses+💸;Control+Your+Budget+📊;Understand+Your+Spending+💰;Take+Control+of+Your+Money+🚀" />
+</p>
 
-## How can I edit this code?
+<p align="center">
+  <strong>A modern and simple expense tracking application designed to help you understand where your money goes.</strong>
+</p>
 
-There are several ways of editing your application.
+<p align="center">
+  <a href="https://tracky-gold.vercel.app">
+    <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-Tracky-F5B400?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="#-android-app">
+    <img src="https://img.shields.io/badge/📱%20DOWNLOAD-APK-34A853?style=for-the-badge&logo=android&logoColor=white"/>
+  </a>
+</p>
 
-**Use Lovable**
+<p align="center">
+  <img src="https://img.shields.io/badge/Web-Available-FFD700?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Android-Available-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
+</p>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2a0c8923-0306-4262-87ed-4f0443235bfa) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💸 What is Tracky?
 
-**Use your preferred IDE**
+**Tracky** is a personal expense and budget management application built to make financial tracking simple, intuitive, and visually engaging.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Whether you're tracking your daily coffee ☕, monthly subscriptions 📱, shopping 🛍️, food 🍔, travel ✈️, or other expenses, Tracky helps you keep everything organized.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+> ### 💡 Spend smarter. Track better. Live better.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🌐 Try Tracky
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+<p align="center">
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🚀 Your money is waiting to be organized.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+<a href="https://tracky-gold.vercel.app">
+<img src="https://img.shields.io/badge/OPEN%20TRACKY%20→-F5B400?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
+</p>
+
+🔗 **Live Website:** https://tracky-gold.vercel.app
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 💸 Expense Tracking
+
+Record and organize your expenses so you always know where your money is going.
+
+</td>
+<td width="50%">
+
+### 📊 Financial Overview
+
+Get a clear overview of your spending and financial activity.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 🎯 Budget Management
+
+Keep your spending under control and stay within your planned budget.
+
+</td>
+<td>
+
+### 📱 Android App
+
+Take Tracky with you using the Android APK included in this repository.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 🌐 Web Application
+
+Access Tracky directly from your browser without installing anything.
+
+</td>
+<td>
+
+### 🎨 Modern Interface
+
+A clean and modern interface designed for a smooth user experience.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📈 Your Money, Visualized
+
+<p align="center">
+
+```text
+                    💰 YOUR MONEY
+                         │
+             ┌───────────┴───────────┐
+             │                       │
+          💵 INCOME              💸 EXPENSES
+                                     │
+                  ┌──────────────────┼──────────────────┐
+                  │                  │                  │
+                 🍔 Food            🛍️ Shopping        🚗 Travel
+                  │                  │                  │
+                  └──────────────────┼──────────────────┘
+                                     │
+                              📊 ANALYZE
+                                     │
+                              🎯 SAVE SMARTER
+```
+
+</p>
+
+---
+
+# 📱 Android App
+
+Want Tracky on your phone?
+
+### ⬇️ Download the APK
+
+<p align="center">
+  <a href="./tracky-jith.apk">
+    <img src="https://img.shields.io/badge/📲%20DOWNLOAD%20TRACKY%20APK-F5B400?style=for-the-badge&logo=android&logoColor=white"/>
+  </a>
+</p>
+
+### Installation
+
+1. Download **`tracky-jith.apk`**
+2. Open the APK on your Android phone.
+3. Allow installation from unknown sources if prompted.
+4. Install the application.
+5. Open Tracky.
+6. Start tracking your expenses! 💰
+
+> ⚠️ Android may display a security warning when installing an APK outside the Play Store. Only install APKs from sources you trust.
+
+---
+
+# 🖥️ Web + 📱 Android
+
+| Platform             | Status           |
+| -------------------- | ---------------- |
+| 🌐 Web               | 🟢 Live          |
+| 🤖 Android           | 🟢 APK Available |
+| 📱 Responsive UI     | 🟢 Supported     |
+| ☁️ Vercel Deployment | 🟢 Active        |
+
+---
+
+# 🎨 Tech & Deployment
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+
+</p>
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+```
+
+Navigate into the project:
+
+```bash
+cd YOUR-REPOSITORY
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Then open:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```text
+http://localhost:3000
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# ☁️ Deployment
 
-## What technologies are used for this project?
+Tracky is deployed using **Vercel**.
 
-This project is built with:
+<p align="center">
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+<img src="https://vercel.com/button" alt="Deploy with Vercel"/>
 
-## How can I deploy this project?
+</p>
 
-Simply open [Lovable](https://lovable.dev/projects/2a0c8923-0306-4262-87ed-4f0443235bfa) and click on Share -> Publish.
+### Production URL
 
-## Can I connect a custom domain to my Lovable project?
+🚀 **https://tracky-gold.vercel.app**
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# 🔮 Future Roadmap
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Tracky is continuously evolving.
+
+* [ ] 📊 Advanced analytics dashboard
+* [ ] 📅 Monthly & yearly reports
+* [ ] 🔔 Budget notifications
+* [ ] 📈 Spending trend analysis
+* [ ] ☁️ Cloud synchronization
+* [ ] 🔐 User authentication
+* [ ] 💾 Cloud backup
+* [ ] 📤 Export expenses
+* [ ] 🧾 Receipt scanning
+* [ ] 🤖 AI-powered spending insights
+* [ ] 🌍 Multi-currency support
+* [ ] 🏆 Saving goals
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you have an idea that can make Tracky better:
+
+```text
+Fork → Create Branch → Make Changes → Commit → Pull Request
+```
+
+Feel free to open an issue for:
+
+🐛 Bugs
+💡 Feature requests
+🎨 UI improvements
+⚡ Performance improvements
+
+---
+
+# ⭐ Support the Project
+
+If you like **Tracky**, consider giving the repository a ⭐
+
+It helps the project grow!
+
+<p align="center">
+
+### ⭐ Star this repository if Tracky helped you manage your expenses!
+
+</p>
+
+---
+
+# 👨‍💻 Developer
+
+<p align="center">
+
+### Sreejith S
+
+Built with ❤️ and ☕ to make expense tracking easier.
+
+</p>
+
+---
+
+<p align="center">
+
+<a href="https://tracky-gold.vercel.app">
+<img src="https://img.shields.io/badge/🚀%20LAUNCH%20TRACKY-F5B400?style=for-the-badge"/>
+</a>
+
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,50:FFA500,100:FF8C00&height=120&section=footer"/>
+</p>
+
