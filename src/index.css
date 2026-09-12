@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 270 50% 97%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 82% 62%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 270 30% 94%;
+    --muted-foreground: 215 16.3% 46.9%;
+
+    --accent: 173 80% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --warning: 43 96% 56%;
+    --warning-foreground: 0 0% 100%;
+
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --border: 270 20% 88%;
+    --input: 270 20% 88%;
+    --ring: 262 83% 58%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 270 50% 97%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 262 83% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 30% 94%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 270 20% 88%;
+    --sidebar-ring: 262 83% 58%;
+  }
+
+  .dark {
+    --background: 262 40% 12%;
+    --foreground: 270 50% 95%;
+
+    --card: 262 30% 16%;
+    --card-foreground: 270 50% 95%;
+
+    --popover: 262 30% 16%;
+    --popover-foreground: 270 50% 95%;
+
+    --primary: 263 70% 65%;
+    --primary-foreground: 262 40% 12%;
+
+    --secondary: 340 75% 65%;
+    --secondary-foreground: 262 40% 12%;
+
+    --muted: 262 30% 20%;
+    --muted-foreground: 270 20% 70%;
+
+    --accent: 173 70% 50%;
+    --accent-foreground: 262 40% 12%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 270 50% 95%;
+
+    --warning: 43 90% 60%;
+    --warning-foreground: 262 40% 12%;
+
+    --success: 142 70% 50%;
+    --success-foreground: 262 40% 12%;
+
+    --border: 262 30% 22%;
+    --input: 262 30% 22%;
+    --ring: 263 70% 65%;
+
+    --sidebar-background: 262 40% 10%;
+    --sidebar-foreground: 270 50% 95%;
+    --sidebar-primary: 263 70% 65%;
+    --sidebar-primary-foreground: 262 40% 12%;
+    --sidebar-accent: 262 30% 16%;
+    --sidebar-accent-foreground: 270 50% 95%;
+    --sidebar-border: 262 30% 22%;
+    --sidebar-ring: 263 70% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
